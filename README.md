@@ -9,9 +9,9 @@ Procedures for Running Process Manager PMan
 [Note: PMan code runs on linux environments
 
 1. To compile code: On terminal execute `make` command.
-2. Ensure executable files (*.o) of testing programs are present within the same directory (PMan folder).
-3. Ensure these executable files (*.o) of testing programs were compiled in the linux system.
-3. If no executable files (*.o) of testing programs are available, include the (*.c) files of the programs
+2. Ensure executable files (\*\.o) of testing programs are present within the same directory (PMan folder).
+3. Ensure these executable files (\*\.o) of testing programs were compiled in the linux system.
+3. If no executable files (\*\.o) of testing programs are available, include the (*.c) files of the programs
    in question and add the following compiling code to the Makefile. 
 
             all: pman inf <filename>
